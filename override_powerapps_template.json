@@ -21,6 +21,10 @@
                     "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
                     "resource": "https://service.powerapps.com/"
                 },
+                "embedIconsInDefinitionOptions" : {
+                    "maxSizeInBytes": 200000,
+                    "allowedFormats": [ "image/png" ]  
+                },
                 "appInstanceDefinition": {
                     "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
                     "accentColor": "{$.accentColor}",
